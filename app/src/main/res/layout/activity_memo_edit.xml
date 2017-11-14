@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_hint"
+                    android:background="@null"
+                    android:lineSpacingMultiplier="1.5"
+                />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0"
+                android:layout_below="@id/editText"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_alarm_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_time"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/line"
+                android:drawableLeft="@drawable/icon_alarm_black"
+                android:drawablePadding="5dp"
+                android:visibility="gone"
+                />
+
+             <TextView
+                 android:id="@+id/createTime"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/tv_alarm_time"
+                 android:layout_marginTop="20dp"
+                 android:layout_alignParentRight="true"
+                 android:textSize="14sp"
+                 android:textColor="?android:textColorSecondary"/>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:title="@string/menu_delete"
+        android:icon="@drawable/icon_delete_white"
+         />
+    <item
+        android:id="@+id/stick"
+        android:title="@string/menu_stick"
+        android:icon="@drawable/icon_stick"
+        />
+</menu>

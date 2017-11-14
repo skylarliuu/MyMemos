@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="NormalTextStyle" parent="android:TextAppearance">
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="AppLightTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!--该项的设置是保证Activity视图顶部不会出现两个上下文操作栏，
+            当前ActionMode将会覆盖在Toolbar上显示-->
+        <item name="windowActionModeOverlay">true</item>
+        <!--该项设置ActionMode背景、字体、返回按键样式等内容-->
+        <item name="actionModeStyle">@style/actionModeStyle</item>
+        <!--返回键样式-->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+
+    </style>
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+    <item name="color">@android:color/white</item>
+    </style>
+    <style name="actionModeStyle" >
+     <item name="background">@color/colorPrimary</item>
+     <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+     <item name="height">?attr/actionBarSize</item>
+     <item name="closeItemLayout">@layout/abc_action_mode_close_item_material</item>
+    </style>
+
+
+</resources>

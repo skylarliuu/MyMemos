@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">MyMemos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="cancal">取消</string>
+
+    <!-- MainActivity -->
+    <string name="menu_delete">删除</string>
+    <string name="menu_stick">置顶</string>
+    <string name="menu_select_title">选中了 %d 项</string>
+    <string name="menu_select_none">没有选中项，操作无效</string>
+    <string name="alert_title_delete">删除</string>
+    <string name="alert_message_delete_notes">确认要删除所选的 %d 条便签吗?</string>
+    <string name="all_group">全部</string>
+    <!-- 侧边栏 -->
+    <string name="group_manager">分组管理</string>
+    <string name="backup_restore">备份与恢复</string>
+
+    <!-- EditGroupActivity -->
+    <string name="group_item_delete">确定要删除该分组？</string>
+    <string name="menu_add">添加分组</string>
+    <string name="add_group_hint">请输入要添加的分组名称</string>
+    <string name="group_name_not_null">分组名称不能为空~</string>
+
+    <!-- MemoEditActivity -->
+    <string name="menu_share">分享</string>
+    <string name="menu_fontsize">字体</string>
+    <string name="menu_alarm">提醒</string>
+    <string name="menu_group">分组</string>
+    <string name="dialog_fontsize_title">设置字体大小</string>
+    <string name="super_huge_size">超大号</string>
+    <string name="huge_size">大号</string>
+    <string name="normal_size">普通</string>
+    <string name="small_size">小号</string>
+    <string name="super_small_size">超小号</string>
+    <string name="dialog_groupname_title">选择便签的分组</string>
+    <string name="edit_hint">记事</string>
+    <string name="create_time">创建于：</string>
+    <string name="alarm_time_err">提醒时间已经过去了</string>
+    <string name="alarm_notice_ticker">便签提醒</string>
+    <string name="no_share_content">当前没有内容可以分享！</string>
+    <string name="menu_share_to">分享至</string>
+    <string name="share_text">From MyMemos</string>
+    <string name="share_with_text">以文字形式分享</string>
+    <string name="share_with_pic">以图片形式分享</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="restore">恢复</string>
+    <string name="backup">备份</string>
+    <string name="backup_records">备份记录</string>
+    <string name="backup_db">是否备份全部数据？</string>
+    <string name="restore_success">恢复成功</string>
+    <string name="restore_fail">恢复失败</string>
+    <string name="backup_success">备份成功</string>
+    <string name="backup_fail">备份失败</string>
+    <string name="restore_db">恢复当前备份将会替代所有数据，确定恢复？</string>
+    <string name="file_not_exist">此文件不存在，请重新刷新备份列表</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_db">删除此备份将无法再恢复，确定删除？</string>
+
+    <!-- Alarm -->
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">便签闹铃</string>
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label">闹铃暂停</string>
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="alarm_notify_snooze_text">闹铃通知，点击取消！</string>
+    <string name="alarm_alert_snooze_set">便签闹铃关闭.</string>
+    <string name="notify_ticker">便签闹钟事件！</string>
+    <string name="Note_Alarm_Notify">便签闹铃通知 !</string>
+
+    <string name="app_widget4x1">MyMemos 4x1</string>
+    <string name="app_widget4x2">MyMemos 4x2</string>
+    <string name="app_widget4x3">MyMemos 4x3</string>
+    <string name="app_widget4x4">MyMemos 4x4</string>
+</resources>
